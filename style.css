@@ -1,0 +1,36 @@
+body{
+    font-family: 'ubuntu', sans-serif;
+}
+section h2{
+    width: 100%;
+}
+h2{
+    background: rgb(207, 205, 205);
+}
+.col{
+    columns: calc(2);
+}
+div h3{
+    margin: 0%;
+}
+div.box {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+  div.box:hover {
+    border: 1px solid #777;
+}
+  div.box img {
+    width: 100%;
+    height: auto;
+}
+/* web dev */
+section .sectwo h2{
+    margin-top: 100px;
+}
+@media (max-width: 690px){
+    .col{
+        columns: calc(1);
+    }
+}
